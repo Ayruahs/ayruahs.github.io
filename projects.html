@@ -1,11 +1,11 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang='en'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <style>
     h1 {
         font-size: 28px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: center;
+        text-align: left;
         color: #e6e6e6;
         padding: 20px 66px 30px 22px;
     }
@@ -17,8 +17,13 @@
     background-repeat: no-repeat;
     } 
 
-    h1 {
+
+    h2 {
+        font-size: 24px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: left;
+        color: #e6e6e6;
+        padding: 20px 66px 30px 22px;
     }
 
     .about-me{
@@ -26,13 +31,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     color: #e6e6e6;
-    width: 95%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
     }
     
     .border{
     border: 2px solid black;
-    margin: 75px;
+    margin: 40px 40px 40px;
     }
     .color-bg{
     background-color: rgba(5,5,5,0.7);
@@ -62,8 +67,8 @@
     <ul class="nav navbar-nav navbar-right">
       <li><a href=./index.html>About &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
       <li class="active"><a href="./projects.html">Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-      <li><a href="./resources/Resume.pdf" target="_blank">Resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
       <li><a href="./interests.html">Interests &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      <li><a href="./resources/Resume.pdf" target="_blank">Resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
       <li><a href="./contact.html">Contact &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 
     </ul>
@@ -73,10 +78,92 @@
 <div class="border color-bg">    
 
 <h1>
-Projects
+ My Projects (In Progress)
 </h1>
 
-<p class="about-me">
+</div>
+
+<div class="border color-bg">
+    <h2> Thermal Deploymerization Robot </h2>
+    <p class="about-me">
+        For the final semester project of ENGR 141: Honors Creativity in Engineering Design I, my team was
+        tasked with the design of a working prototype of a robot that was to be deployed in areas hit by 
+        natural disasters like earthquakes. Natural disasters create waste and debris of many different types.
+        The robot had to be designed to be able to classify the contents of waste bins as one of three waste
+        types- organic, ceramic or metallic. It should then take the bins to their respective areas of disposal.
+        <img src="./static/projectImages/PMR.png" 
+        alt="Picture of the robot taken from project presentation slides"
+        style="height: 160px; width: 297px; margin: 30px 30px 30px 0px" align="left">
+        <br>
+        <br>
+        The robot had to follow a line while maintaining a given minimum average speed of 3 ft/s. It had to have 
+        a bin-lifting mechanism which could differentiate between different kinds of bins by weight. We were not 
+        allowed to give the robot wheels because they might further damage the disaster area. Keeping these and several
+        other constraints in mind, my team developed the "crutch-based" robot shown in the image after 10 weeks 
+        of gruelling hard work.
+        <br>
+        <br>
+        I worked on the software side of the robot and developed the line-following algorithm and the bin-lifting 
+        mechanism.
+        <img src="./static/projectImages/lineFollowing.png" 
+        alt="Picture of algorithm taken from project presentation slides"
+        style="height: 160px; width: 434px; margin: 30px 0px 30px 30px" align="right">
+        <br>
+        <br>
+        This project was designed to simulate a real engineering problem and was challenging in every way imaginable. 
+        The ENGR 141 instructional team did not give us all the relevant information at once, the parts broke, 
+        the code would work one day but not the next, etc. But, by far the most difficult part of the assignment for me 
+        was the realization that I needed to depend on my teammates to get the best work done. Before college, I had had
+        less than pleasant experiences in group assignments and was usually the one to do all the work, and my teammates 
+        had similar experiences. This course was the first time in my life that working with other people produced better
+        work than that I could on my own. I learned to use project management tools, planning and deriving technical 
+        requirements from vague customer needs.
+        <br>
+        <br>
+
+    </p>
+</div>
+
+<div class="border color-bg">
+    <h2> Autonomous Lunar Vehicle </h2>
+    <p class="about-me">
+        For the final semester project of ENGR 142: Honors Creativity in Engineering Design II, my team was
+        tasked with the design of a working prototype  
+    </p>
+</div>
+
+<div class="border color-bg">
+    <h2> Food Reminder App </h2>
+    <p class="about-me">
+
+    </p>
+</div>
+
+<div class="border color-bg">
+    <h2> Pumped Hydro Energy Storage </h2>
+    <p class="about-me">
+        
+    </p>
+</div>
+
+<div class="border color-bg">
+    <h2> Cost Optimization of a Bio-Printer </h2>
+    <p class="about-me">
+        
+    </p>
+</div>
+
+<div class="border color-bg">
+    <h2> Light Saber </h2>
+    <p class="about-me">
+        
+    </p>
+</div>
+
+
+</body>
+</html>
+<!--
     ENGR 141 AND ENGR 142: TEAMWORK, COLLABORATION, PROGRAMMING, PLANNING, PICTURES, TOOLS USED, TIME FRAME
     ENGR 103: MACHINING TOOLS, INDUSTRY STANDARDS, HANDS-ON, LIGHTSABER PICTURES, PROJECT SUMMARY, TOOLS AND PROCESSES USED
     HONORS: INTER-DISCIPLINARY COURSES, EPIGENETICS, LEARNING COMMUNITIES
@@ -84,8 +171,4 @@ Projects
     PROGRAMMING
     FAST LEARNER, HARDWORKER ETCETC.
     lots of pictures everywhere
-</p>
-</div>
-
-</body>
-</html>
+-->
