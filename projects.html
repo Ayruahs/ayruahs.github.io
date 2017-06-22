@@ -12,9 +12,9 @@
     body {
     background: url("./static/campus.jpg") ;
     background-color: #000066;
-    background-size: cover;
+    background-size: contain;
     background-blend-mode:lighten;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     } 
 
 
@@ -34,7 +34,16 @@
     width: 90%;
     margin: auto;
     }
-    
+    .face{
+    display: block;
+    height : 40px;
+    width : 40px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    margin: -10px -10px -10px -3px;
+    }
     .border{
     border: 2px solid black;
     margin: 40px 40px 40px;
@@ -63,7 +72,7 @@
 <body>
 <nav class="navbar fixed-top navbar-inverse bg-faded">
     <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html">&nbsp;&nbsp;&nbsp;&nbsp; Shaurya Sinha</a>
+    <a class="navbar-brand" href="./index.html"><img src="./static/face.png" class="face" align="left">&nbsp;&nbsp;&nbsp;&nbsp; Shaurya Sinha</a>
     <ul class="nav navbar-nav navbar-right">
       <li><a href=./index.html>About &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
       <li class="active"><a href="./projects.html">Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
@@ -135,7 +144,18 @@
 <div class="border color-bg">
     <h2> Food Reminder App </h2>
     <p class="about-me">
-
+        This app asks the user to choose their favorite food items served in the dining courts of Purdue and sends them
+        a reminder the day before that item is being served. It is built using the Purdue Dining Courts API.
+        <br>
+        <br>
+        This project was born out of my love for dining court chocolate chip pancakes. I usually do not eat breakfast,
+        but I made an exception whenever chocolate chip pancakes were being served. I found myself opening the Purdue Menus
+        website every night to check if any dining court was serving them the next morning and that's when I wondered if 
+        there was a better way. That's how this app came into existence. 
+        <br>
+        <br>
+        I had meaning to learn iOS development for while and thought this would be the perfect way to learn while building
+        something fun.
     </p>
 </div>
 
