@@ -1,6 +1,6 @@
 h1{
     font-size: 28px;
-    font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
     text-align: left;
     color: #e6e6e6;
     padding: 20px 66px 30px 22px;
@@ -8,7 +8,7 @@ h1{
 
 h2{
     font-size: 24px;
-    font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
     text-align: left;
     color: #e6e6e6;
     padding: 20px 66px 30px 22px;
@@ -17,18 +17,26 @@ h2{
 body{
 background: url("../static/mountain.jpg") ;
 background-color: rgba(5,5,5, .85);
-background-size: 100% auto;
-background-blend-mode:lighten;
-background-repeat: repeat;
+
+height: 500px;
+
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 } 
 
 p{
-font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+color: white;
 }
 
 nav{
-font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
+
+
 
 .icon{
 display: block;
