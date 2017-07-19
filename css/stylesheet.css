@@ -2,7 +2,7 @@ h1{
     font-size: 28px;
     font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
     text-align: left;
-    color: #e6e6e6;
+    color: white;
     padding: 20px 66px 30px 22px;
     }
 
@@ -10,7 +10,7 @@ h2{
     font-size: 24px;
     font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
     text-align: left;
-    color: #e6e6e6;
+    color: white;
     padding: 20px 66px 30px 22px;
 }
 
@@ -19,8 +19,6 @@ background: url("../static/mountain.jpg") ;
 background-color: rgba(5,5,5, .85);
 
 height: 500px;
-
-
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -35,8 +33,6 @@ color: white;
 nav{
 font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
-
-
 
 .icon{
 display: block;
@@ -68,9 +64,25 @@ padding-top:30px;
 font-size: 15px;
 font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-align: left;
-color: #e6e6e6;
+color: white;
 width: 90%;
 margin: auto;
+}
+
+.blog{
+font-size: 18px;
+font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: left;
+color: white;
+width: 72%;
+margin: auto;
+}
+
+.blog-date{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    text-align: left;
+    color: white;
 }
 
 .border{
