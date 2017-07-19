@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>
+    Shaurya Sinha 
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Shaurya Sinha, student at Purdue University">
+    <meta name="keywords" content="Resume,Honors College,Purdue,Shaurya Sinha">
+    <meta name="author" content="Shaurya Sinha">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102330182-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="./index.html"><img src="./static/face.png" class="face" align="left">
+        &nbsp;&nbsp;&nbsp;&nbsp; Shaurya Sinha
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./index.html">Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="./projects.html">Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="./interests.html">Interests &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li class="active"><a href="./blog.html">Blog &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+        <li><a href="./resources/Shaurya_Sinha_resume.pdf" target="_blank">Resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="./contact.html">Contact &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="border color-bg">
+    <h2 style="font-size: 30px"> Consistent Hashing <div class="blog-date">19 July '17</div></h2>
+    
+    <p class="blog">
+        Consistent Hashing is a kind of hashing in which resizing requires only a fraction of the keys to be remapped as opposed to 
+        traditional hash tables which often cause the remapping of all or nearly all of the keys. The idea was first introduced in 1997, 
+        in an academic paper (<a href="https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf" target="_blank">
+        Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web</a> 
+        by David Karger et al) at MIT for use in distributed caching. It has since then been used in many services like Amazon’s
+        in-house DynamoDB database service.
+        <br>
+        <br>
+        The usefulness of consistent hashing becomes apparent in the context of distributed systems. It elegantly solves some of the 
+        problems that come with scale. A common way to achieve load balancing is to hash(key) % n where n is the number of servers. 
+        This works well only till the point one needs to add or remove servers. When such addition/removal occurs, n changes and all 
+        the keys need to be remapped. When working with very large databases distributed in thousands of servers, such remapping of 
+        keys using traditional hashing can be disastrous if 10-15% of the servers shut down due to any reason. This problem is solved
+        with consistent hashing.
+        <br>
+        <br>
+        Consistent hashing maps keys to the same node, as far as possible. The consistent hashing algorithm involves hashing both the keys and 
+        nodes to an interval which has key hashes. If any node is removed, then the keys contained in its interval are mapped to the adjacent 
+        node and if any node is added, the keys contained in the newly defined interval are mapped to the new node.
+        <br>
+        <br>
+        This can give rise to unequally sized intervals since the mapping of nodes is random. This problem is solved using virtual nodes which 
+        correspond to the physical nodes. So, when a new node is added to the system, the virtual nodes ensure that the new node takes the 
+        load from many other physical nodes rather than splitting the load of just the adjacent physical node.
+        <br>
+        <br>
+        Consistent hashing ensures that:
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; •	All nodes receive roughly the same number of keys 
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; •	When a new node is added or removed, only a fraction of the keys have to be moved to a new location.
+        <br>
+        <br>
+        You can learn more about the benefits of consistent hashing <a href="http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html">
+        here</a>
+        <br>
+        <br>
+    </p>
+</div>
+
+</body>
+</html>
