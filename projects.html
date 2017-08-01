@@ -33,55 +33,59 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-        </button>
-        <a class="navbar-brand" href="./index.html"><img src="./static/face.png" class="face" align="left">
-        &nbsp;&nbsp;&nbsp;&nbsp; Shaurya Sinha
-        </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="./index.html">Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li class="active"><a href="./projects.html">Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <!--<li><a href="./interests.html">Interests &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> -->
-        <li><a href="./blog.html">Blog &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a href="./resources/Shaurya_Sinha_resume.pdf" target="_blank">Resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a href="./contact.html">Contact &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-      </ul>
-      
-    </div>
-  </div>
-</nav>
+<div class="projects-topbox">
+  <div class="parallax-table-cell" style="vertical-align: top;">
+    <a href="./index.html">
+      <button type="button" class="button2" style="position: absolute; top: 20px;left: 2vw;">
+        <div class=arrow></div> 
+        HOME
+      </button>
+    </a>
 
-<div class="border parallax-table-cell box1">
-    <h2> Purdue Pancakes </h2>
-    <p>
-        <center><img src="./static/PancakesNotification.jpg" 
-        alt="Notification examples"
-        style="height: 500px; width: 281.11px; margin: 30px 30px 30px 0px" align="top">
-        </center>
-    <p class="about-me">
-        This project was born out of my love for dining court chocolate chip pancakes. I usually do not eat breakfast,
-        but I made an exception whenever chocolate chip pancakes were being served. I found myself opening the Purdue Menus
-        website every night to check if any dining court was serving them the next morning and that's when I wondered if 
-        there was a better way. That's how this app came into existence. 
-        <br>
-        <br>
-        This app allows the user to choose their favorite food items from foods being served in the dining courts in the near future
-        and sends them a reminder an hour before that item is being served. It is built using the Purdue Dining Courts API.
-        <br>
-        <br>
-        I had been meaning to learn iOS development for while and thought this would be the perfect way to learn 
-        while building something fun.
-        <br>
-        <br>
-    </p>
+    <a href="./resources/Shaurya_Sinha_resume.pdf" target="_blank">
+      <button type="button" class="button2" style="position: absolute; top: 20px;right: 14vw;">
+          RESUME
+      </button>
+    </a>
+
+    <a href="./blog.html">
+      <button type="button" class="button2" style="position: absolute; top: 20px;right: 4vw;">
+          BLOG
+      </button>
+    </a>
+  </div>
+
+  <div class="parallax-table-cell" style="vertical-align: bottom; text-align: left;">
+    <div class="blog-header"> Projects </div>
+  </div>
+</div>
+
+<div id="pancakes">
+    <div class="parallax-table-cell">
+        <h2> Purdue Pancakes </h2>
+        
+        <div class="blog">
+            <center><img src="./static/PancakesNotification.jpg" 
+            alt="Notification examples"
+            style="height: 500px; width: 281.11px; margin: 30px 30px 30px 0px" align="top">
+            </center>
+
+            This project was born out of my love for dining court chocolate chip pancakes. I usually do not eat breakfast,
+            but I made an exception whenever chocolate chip pancakes were being served. I found myself opening the Purdue Menus
+            website every night to check if any dining court was serving them the next morning and that's when I wondered if 
+            there was a better way. That's how this app came into existence. 
+            <br>
+            <br>
+            This app allows the user to choose their favorite food items from foods being served in the dining courts in the near future
+            and sends them a reminder an hour before that item is being served. It is built using the Purdue Dining Courts API.
+            <br>
+            <br>
+            I had been meaning to learn iOS development for while and thought this would be the perfect way to learn 
+            while building something fun.
+            <br>
+            <br>
+        </div>
+    </div>
 </div>
 
 <div class="border parallax-table-cell box2">

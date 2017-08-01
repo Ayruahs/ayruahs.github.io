@@ -32,36 +32,63 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-        </button>
-        <a class="navbar-brand" href="./index.html"><img src="./static/face.png" class="face" align="left">
-        &nbsp;&nbsp;&nbsp;&nbsp; Shaurya Sinha
-        </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="./index.html">Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a href="./projects.html">Projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <!--<li><a href="./interests.html">Interests &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> -->        
-        <li class="active"><a href="./blog.html">Blog &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
-        <li><a href="./resources/Shaurya_Sinha_resume.pdf" target="_blank">Resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        <li><a href="./contact.html">Contact &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-      </ul>
-      
+  
+<div class="blog-topbox">
+  <div class="parallax-table-cell" style="vertical-align: top;">
+    <a href="./index.html">
+      <button type="button" class="button2" style="position: absolute; top: 20px;left: 2vw;">
+        <div class=arrow></div> 
+        HOME
+      </button>
+    </a>
+
+    <a href="./resources/Shaurya_Sinha_resume.pdf" target="_blank">
+      <button type="button" class="button2" style="position: absolute; top: 20px;right: 14vw;">
+          RESUME
+      </button>
+    </a>
+
+    <a href="./projects.html">
+      <button type="button" class="button2" style="position: absolute; top: 20px;right: 4vw;">
+          PROJECTS
+      </button>
+    </a>
+  </div>
+
+  <div class="parallax-table-cell" style="vertical-align: bottom; text-align: left;">
+    <div class="blog-header"> BLOG </div>
+  </div>
+</div>
+
+<div id="HCR">
+  <div class="parallax-table-cell">
+    <h2 style="font-size: 30px; margin-left: 50px"> Climbing Outdoors for the First Time <div class="blog-date">1 August '17</div></h2>
+    
+    <div class="blog">
+        I started climbing after coming to the United States. The absence of a footballing (Soccer) culture coupled with my 
+        dwindling ability and willingness to do high-intensity cardio forced me to find a new sport. Climbing filled that gap 
+        for me. 
+        <br>
+        <br>
+        It would be difficult for someone to find a more beginner-friendly sport. Every gym has routes of varying difficulty 
+        for beginners to veteran climbers and the community is incredibly supportive. No matter where you're climbing, you'll find 
+        a couple of people giving you tips and encouragement whenever they see you struggling on a problem.   I am nowhere near as 
+        good at climbing as I was at Soccer, and still learning. I went climbing outdoors at Horseshoe Canyon Ranch in Jasper, AR 
+        over spring break with the Purdue Climbing Club. It was an incredible learning experience. I was told about the expectations 
+        and etiquettes of outdoor climbing. I learned lead climbing and cleaning routes. It was near-freezing and the rocks were sharp. 
+        Camping in that weather with bleeding fingers and bruised sides was miserable, but looking back, it was the most fun I'd had in a 
+        long time and I learned so much. 
+        <br>
+        <br>
     </div>
   </div>
-</nav>
+</div>
 
-<div class="border color-bg">
-    <h2 style="font-size: 30px"> Consistent Hashing <div class="blog-date">19 July '17</div></h2>
+<div class="blog-blackbox">
+  <div class="parallax-table-cell">
+    <h2 style="font-size: 30px; margin-left: 50px"> Consistent Hashing <div class="blog-date">19 July '17</div></h2>
     
-    <p class="blog">
+    <div class="blog">
         Consistent Hashing is a kind of hashing in which resizing requires only a fraction of the keys to be remapped as opposed to 
         traditional hash tables which often cause the remapping of all or nearly all of the keys. The idea was first introduced in 1997, 
         in an academic paper (<a href="https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf" target="_blank">
@@ -100,7 +127,8 @@
         here.</a>
         <br>
         <br>
-    </p>
+    </div>
+  </div>
 </div>
 
 </body>

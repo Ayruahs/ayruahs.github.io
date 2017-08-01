@@ -17,29 +17,19 @@ h2{
     padding: 20px 66px 30px 22px;
 }
 
-/*body{
-background: url("../static/mountain.jpg") ;
-background-color: rgba(5,5,5, .85);
-
-height: 500px;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-} */
 body{
     background-color:#111;
 }
 
 p{
-font-family: 'Lato', sans-serif;
-font-size: 20px;
-color: white;
-margin: 40px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 40px 0px;
 }
 
 nav{
-font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
 
 a:link { 
@@ -47,68 +37,56 @@ a:link {
 }
 
 .icon{
-display: block;
-height : 140px;
-width : 140px;
-border-radius: 50%;
-border-width: 5px;
-border-style: solid;
-border-color: #e6e6e6;
-margin:auto;
+    display: block;
+    height : 140px;
+    width : 140px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    margin:auto;
 }
 
 .face{
-display: inline-block;
-height : 28px;
-width : 28px;
-border-radius: 50%;
-border-width: 1px;
-border-style: solid;
-border-color: #e6e6e6;
+    display: inline-block;
+    height : 28px;
+    width : 28px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
 }
 
 .icon-div{
-padding-top:30px;
+    padding-top:30px;
 }
 
 .about-me{
-font-size: 15px;
-font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-text-align: left;
-color: white;
-width: 90%;
-margin: auto;
-}
-
-.blog{
-font-size: 18px;
-font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-text-align: left;
-color: white;
-width: 72%;
-margin: auto;
-}
-
-.blog-date{
-    font-size: 13px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 15px;
+    font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     color: white;
+    width: 90%;
+    margin: auto;
 }
 
 .border{
-border: 2px solid black;
-margin: 80px 40px;
-padding: 40px 40px;
+    border: 2px solid black;
+    margin: 80px 40px;
+    padding: 40px 40px;
 }
 
+/*To-be-contained in a parallax box CSS*/
+
 .parallax-table-cell{
-background-color: rgba(5,5,5,0.4);
-margin: 0px 40px;
-display: table-cell;
-text-align: center;
-vertical-align: middle;
+    background-color: rgba(5,5,5,0.4);
+    margin: 0px 40px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
+
+/*Button CSS*/
 
 .button {
     background-color: whitesmoke; 
@@ -135,6 +113,8 @@ vertical-align: middle;
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
 }
+
+/*Index CSS*/
 
 .box1{
     height: 120vh;
@@ -169,6 +149,91 @@ vertical-align: middle;
     background-image: url(../static/airportpicture.jpg);
     background-color: #111;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.arrow {
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    width:15px;
+    height:15px;
+    transform: rotate(135deg);
+    display: inline-block;
+}
+
+/*Projects CSS*/
+.projects-topbox{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../static/campus.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+#pancakes{
+    height: 120vh;
+    width: 100%;
+    background-image: url(../static/bwccpancakes.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+
+/*Blog CSS*/
+
+.blog-topbox{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../static/workstation.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.blog-header{
+    font-size: 110px;
+    font-family: 'Bowlby One SC', serif;
+    text-align: right;
+    color: white;
+    padding: 20px 66px 0px 22px;
+}
+
+.blog{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    color: white;
+    width: 72%;
+    margin: auto;
+}
+
+.blog-date{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    text-align: left;
+    color: white;
+}
+
+#HCR{
+    height: 120vh;
+    width: 100%;
+    background-image: url(../static/5.9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.blog-blackbox{
+    height: 60vh;
+    width: 100%;
+    background-color: #111;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
