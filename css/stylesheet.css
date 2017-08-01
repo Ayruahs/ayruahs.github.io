@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Fjalla+One|Lato|Montserrat|Roboto');
+
+
 h1{
-    font-size: 72px;
-    font-family: 'Avenir';
-    text-align: left;
+    font-size: 110px;
+    font-family: 'Bowlby One SC', serif;
+    text-align: center;
     color: white;
     padding: 20px 66px 30px 22px;
     }
 
 h2{
-    font-size: 24px;
-    font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
     text-align: left;
     color: white;
     padding: 20px 66px 30px 22px;
@@ -29,12 +32,18 @@ body{
 }
 
 p{
-font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-size: 20px;
 color: white;
+margin: 40px 0px;
 }
 
 nav{
 font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+a:link { 
+    color: darkkhaki;
 }
 
 .icon{
@@ -49,14 +58,13 @@ margin:auto;
 }
 
 .face{
-display: block;
-height : 40px;
-width : 40px;
+display: inline-block;
+height : 28px;
+width : 28px;
 border-radius: 50%;
 border-width: 1px;
 border-style: solid;
 border-color: #e6e6e6;
-margin: -10px -10px -10px -3px;
 }
 
 .icon-div{
@@ -91,10 +99,11 @@ margin: auto;
 .border{
 border: 2px solid black;
 margin: 80px 40px;
+padding: 40px 40px;
 }
 
 .parallax-table-cell{
-background-color: rgba(5,5,5,0.5);
+background-color: rgba(5,5,5,0.4);
 margin: 0px 40px;
 display: table-cell;
 text-align: center;
@@ -102,20 +111,42 @@ vertical-align: middle;
 }
 
 .button {
-    background-color: #000000; /* Green */
-    border: 4px solid white;
-    color: white;
-    padding: 15px 32px;
+    background-color: whitesmoke; 
+    border: 1px solid black;
+    color: black;
+    padding: 4px 8px;
     margin: 0px 20px;
     text-align: center;
     text-decoration: none;
     display: inline;
     font-size: 16px;
-    font-family: "Avenir";
+    font-family: "Lato";
+}
+
+.button2 {
+    background-color: black; 
+    border: 1px solid whitesmoke;
+    color: white;
+    padding: 4px 16px;
+    margin: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .box1{
-    height: 100vh;
+    height: 120vh;
+    width: 100%;
+    background-image: url(../static/milkyway.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box2{
+    height: 70vh;
     width: 100%;
     background-image: url(../static/belltower.jpg);
     background-size: cover;
@@ -123,29 +154,23 @@ vertical-align: middle;
     display: table;
 }
 
-.box2{
-    height: 100vh;
-    width: 100%;
-    background-image: url(../static/campus.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    display: table;
-}
-
 .box3{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    background-image: url(../static/mountain.jpg);
+    background-image: url(../static/belltower.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: table;
 }
 
 .blackbox{
-    height: 100vh;
+    height: 60vh;
     width: 100%;
+    background-image: url(../static/airportpicture.jpg);
     background-color: #111;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     display: table;
 }
