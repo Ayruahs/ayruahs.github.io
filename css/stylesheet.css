@@ -1,6 +1,6 @@
 h1{
-    font-size: 28px;
-    font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 72px;
+    font-family: 'Avenir';
     text-align: left;
     color: white;
     padding: 20px 66px 30px 22px;
@@ -14,7 +14,7 @@ h2{
     padding: 20px 66px 30px 22px;
 }
 
-body{
+/*body{
 background: url("../static/mountain.jpg") ;
 background-color: rgba(5,5,5, .85);
 
@@ -23,7 +23,10 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-} 
+} */
+body{
+    background-color:#111;
+}
 
 p{
 font-family: 'Avenir', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
@@ -90,8 +93,61 @@ border: 2px solid black;
 margin: 80px 40px;
 }
 
-.color-bg{
-background-color: rgba(5,5,5,0.85);
+.parallax-table-cell{
+background-color: rgba(5,5,5,0.5);
+margin: 0px 40px;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+.button {
+    background-color: #000000; /* Green */
+    border: 4px solid white;
+    color: white;
+    padding: 15px 32px;
+    margin: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    font-family: "Avenir";
+}
+
+.box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../static/belltower.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../static/campus.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../static/mountain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.blackbox{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
 }
 
 @media screen and (max-width: 768px){
