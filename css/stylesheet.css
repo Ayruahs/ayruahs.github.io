@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Fjalla+One|Lato|Montserrat|Roboto');
 
+.navbarbox{
+    height: 25px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+#indexnavbar{
+    background-image: url(../static/milkyway.jpg);
+}
+#projectsnavbar{
+    background-image: url(../static/campusreduced.jpg);
+}
+#blognavbar{
+    background-image: url(../static/workstation.jpg);
+}
+
+.navbar-default {
+  border-color: transparent;
+}
 
 h1{
     font-size: 90px;
@@ -106,7 +127,7 @@ a:link {
     border: 1px solid whitesmoke;
     color: white;
     padding: 4px 16px;
-    margin: 0px 20px;
+    margin: 0px 0px;
     text-align: center;
     text-decoration: none;
     display: inline;
@@ -185,7 +206,7 @@ a:link {
 .projects-topbox{
     height: 70vh;
     width: 100%;
-    background-image: url(../static/campus.jpg);
+    background-image: url(../static/campusreduced.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: table;
@@ -258,7 +279,27 @@ a:link {
 }
 
 @media screen and (max-width: 768px){
-    
+
+.navbar-transparent{
+    background: #000;
+}
+
+#indexnavbar{
+    background-image: url(../static/milkyway.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#projectsnavbar{
+    background-image: url(../static/campusreduced.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#blognavbar{
+    background-image: url(../static/workstation.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
 h1{
     font-size: 60px;
     font-family: 'Bowlby One SC', serif;
@@ -338,11 +379,11 @@ a:link {
     border: 1px solid whitesmoke;
     color: white;
     padding: 4px 16px;
-    margin: 0px 20px;
+    margin: 0px 0px;
     text-align: center;
     text-decoration: none;
-    display: inline;
-    font-size: 12px;
+    display: block;
+    width: 100%;
     font-family: "Montserrat", sans-serif;
 }
 
