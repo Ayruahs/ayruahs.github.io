@@ -206,7 +206,7 @@ a:link {
 .projects-topbox{
     height: 70vh;
     width: 100%;
-    background-image: url(../static/campusreduced.jpg);
+    background-image: url(../static/campusReduced.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: table;
