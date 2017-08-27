@@ -12,7 +12,7 @@
     background-image: url(../static/milkyway.jpg);
 }
 #projectsnavbar{
-    background-image: url(../static/campusReduced.jpg);
+    background-image: url(../static/math.jpg);
 }
 #blognavbar{
     background-image: url(../static/workstation.jpg);
@@ -204,29 +204,36 @@ a:link {
 
 /*Projects CSS*/
 .projects-topbox{
-    height: 70vh;
+    height: 50vh;
     width: 100%;
-    background-image: url(../static/campusReduced.jpg);
+    background-image: url(../static/math.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: table;
 }
 
 #pancakes{
-    height: 120vh;
+    height: 100vh;
     width: 100%;
-    background-image: url(../static/bwccpancakes.jpg);
+    background-image: url(../static/pcakes.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+#moon{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../static/moon.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: table;
 }
 
 
-
 /*Blog CSS*/
 
 .blog-topbox{
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     background-image: url(../static/workstation.jpg);
     background-size: cover;
@@ -290,7 +297,7 @@ a:link {
     background-repeat: no-repeat;
 }
 #projectsnavbar{
-    background-image: url(../static/campusReduced.jpg);
+    background-image: url(../static/math.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -459,7 +466,7 @@ a:link {
 .projects-topbox{
     height: 40vh;
     width: 100%;
-    background-image: url(../static/campus.jpg);
+    background-image: url(../static/math.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -469,13 +476,20 @@ a:link {
 #pancakes{
     height: 120vh;
     width: 100%;
-    background-image: url(../static/bwccpancakes.jpg);
+    background-image: url(../static/pcakes.jpg);
     background-size: contain;
     background-repeat: repeat;
     background-attachment: fixed;
     display: table;
 }
-
+#moon{
+    height: 120vh;
+    width: 100%;
+    background-image: url(../static/moon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
 
 
 /*Blog CSS*/
