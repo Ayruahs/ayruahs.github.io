@@ -1,0 +1,43 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About {
+    padding-top: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Header {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(0, 94, 117);
+}
+
+.Text-and-picture {
+    display: flex;
+    margin-top: 50px;
+}
+
+.Picture {
+    margin-left: 100px;
+    height: 300px;
+}
+
+.Text {
+    color: rgb(0, 94, 117);
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../../Resources/Fonts/Avenir Roman.otf") format("opentype");
+}

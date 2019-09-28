@@ -1,0 +1,76 @@
+
+
+.Home-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.LeftPicture {
+    background: url("./images/baker_beach3.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    z-index: 3;
+}
+
+.Intro {
+    color: #16acac;
+    /* margin-right: 20%; */
+    margin-top: 200px;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.Intro-1 {
+    /* margin-top: 22%; */
+    font-family: 'AvenirNext-Ultralight';
+    font-size: 45px;
+}
+
+.Intro-2 {
+    margin-top: 15px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+}
+
+.Intro-3 {
+    color: rgb(0, 94, 117);
+    margin-top: 75px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 650px;
+}
+
+.Intro-logos {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.linkedInLogo {
+    height: 30px;
+    width: 35.3px;
+}
+
+.gitHubLogo {
+    height: 30px;
+    width: 30px;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../../Resources/Fonts/Avenir Roman.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Chivo:900&display=swap');

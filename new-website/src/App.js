@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Switch, Route, withRouter} from "react-router-dom";
+import {TransitionGroup, CSSTransition} from 'react-transition-group'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Navbar from './Components/Navbar.js'
+import Home from './pages/Home/home.js'
+import Work from './pages/Work/work.js'
+import About from './pages/About/about.js'
+
+function App({location}) {
+    return (
+      <div>
+          <Navbar />
+          <TransitionGroup>
+              <CSSTransition
+              key={location.key} 
+              classNames={"SlideIn"}
+              timeout={800}
+              >
+                  <Switch location={location} >
+                      <Route exact path="/" render={Home} />
+                      <Route path="/work" render={Work} />
+                      <Route path="/about" render={About} />
+                  </Switch>
+              </CSSTransition>
+          </TransitionGroup>
+      </div>
+    );
 }
 
-export default App;
+export default withRouter(App);
