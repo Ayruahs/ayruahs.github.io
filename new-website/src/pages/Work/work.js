@@ -54,8 +54,8 @@ function Work() {
                 <div className="Work-Experience-Body">
                     I worked as an iOS Developer on the Instagram Stories Interactivity and Feedback team during the summer of 2019 
                     where I collaborated with the Design and Instagram Direct teams to create new and expand existing user 
-                    experiences to facilitate new ways of reacting to Instagram Stories. I took three different major features from 
-                    conception to shipping to the production iOS app based on user research data.
+                    experiences to facilitate new ways of reacting to Instagram Stories based on user research data. I took three 
+                    different major features from conception to shipping to the production iOS app.
                 </div>
                 </div>
                 <div className="Work-Experience-Subheader">

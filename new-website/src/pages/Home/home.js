@@ -18,7 +18,7 @@ function Home() {
                 </div>
                 <div className="Intro-3">
                     I'm an undergraduate student studying Computer Science at Purdue University where I am currently a senior. I have experience developing
-                    full stack web iOS applications and am trying to learn design. I will graduate in December 2019 after which I'll be joining Facebook as 
+                    full stack web and iOS applications and am trying to learn design. I will graduate in December 2019 after which I'll be joining Facebook as 
                     a full-time Software Engineer.  Get in touch!
                 </div>
 
