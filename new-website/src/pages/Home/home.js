@@ -17,15 +17,15 @@ function Home() {
                     Shaurya Sinha
                 </div>
                 <div className="Intro-3">
-                    I'm an undergraduate student studying Computer Science at Purdue University where I am currently a senior. I will graduate 
-                    in December 2019 after which I'll be joining Facebook as a full-time Software Engineer. I have full stack web
-                    development and iOS development experience. Get in touch!
+                    I'm an undergraduate student studying Computer Science at Purdue University where I am currently a senior. I have experience developing
+                    full stack web iOS applications and am trying to learn design. I will graduate in December 2019 after which I'll be joining Facebook as 
+                    a full-time Software Engineer.  Get in touch!
                 </div>
 
                 <div className="Intro-logos">
-                    <img src={GitHub} alt="Github logo" className="gitHubLogo" />
-                    <img src={LinkedIn} alt="LinkedIn logo" className="linkedInLogo" />
-                    <img src={IG} alt="Instagram logo" className="gitHubLogo" />
+                    <a href="https://github.com/Ayruahs" target="_blank"><img src={GitHub} alt="Github logo" className="gitHubLogo" /></a>
+                    <a href="https://www.linkedin.com/in/shaurya-sinha/" target="_blank"><img src={LinkedIn} alt="LinkedIn logo" className="linkedInLogo" /></a>
+                    <a href="https://www.instagram.com/shauryasinha/" target="_blank"><img src={IG} alt="Instagram logo" className="gitHubLogo" /></a>
                 </div>
             </div>
         </div>

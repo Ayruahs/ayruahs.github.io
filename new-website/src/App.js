@@ -21,7 +21,7 @@ function App({location}) {
                   <Switch location={location} >
                       <Route exact path="/" render={Home} />
                       <Route path="/work" render={Work} />
-                      <Route path="/about" render={About} />
+                      <Route path="/contact" render={About} />
                   </Switch>
               </CSSTransition>
           </TransitionGroup>
