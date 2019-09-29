@@ -2,11 +2,15 @@ import React from 'react';
 import './App.css';
 import {Switch, Route, withRouter} from "react-router-dom";
 import {TransitionGroup, CSSTransition} from 'react-transition-group'
+import ReactGA from 'react-ga';
 
 import Navbar from './Components/Navbar.js'
 import Home from './pages/Home/home.js'
 import Work from './pages/Work/work.js'
 import About from './pages/About/about.js'
+
+ReactGA.initialize('UA-102330182-1');
+ReactGA.pageview('/');
 
 function App({location}) {
     return (

@@ -4,6 +4,11 @@ import IGlogo from './images/glyph-logo_May2016.png'
 import fulcrumLogo from './images/fulcrum.png'
 import Resume from "../../Resources/Shaurya_Sinha_resume.pdf"
 
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-102330182-1');
+ReactGA.pageview('/work');
+
 function onResumeClick() {
     window.open(Resume);
 }

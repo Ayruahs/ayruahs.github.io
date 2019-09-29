@@ -4,10 +4,10 @@ import {withRouter, Link} from 'react-router-dom';
 import Park from './images/dolores.jpg'
 import LinkedIn from '../Home/images/LinkedIn.png'
 import IG from '../Work/images/glyph-logo_May2016.png'
+import ReactGA from 'react-ga';
 
-function onResumeClick() {
-    window.open(IG);
-}
+ReactGA.initialize('UA-102330182-1');
+ReactGA.pageview('/contact');
 
 function About(props) {
     return (
