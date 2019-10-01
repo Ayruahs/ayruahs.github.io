@@ -94,11 +94,11 @@ function Work() {
                 <div className="Work-Experience-Header">
                     Skills
                 </div>
-                <div style={{marginTop:'30px', marginBottom:'200px', width:'650px'}}>
-                    <div style={{marginBottom:'8px'}}>
+                <div className="Skills">
+                    <div className="Skills-Body">
                         <b>Languages: </b> Java, C/C++, Python, Swift, Objective-C, Javascript
                     </div>
-                    <div style={{marginBottom:'8px'}}>
+                    <div className="Skills-Body">
                         <b>Technologies: </b> Git, AWS, Flask, React.js, HTML/CSS
                     </div>
                 </div>

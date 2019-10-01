@@ -9,7 +9,7 @@
 .LeftPicture {
     width: 600px;
     height: 751.75px;
-    margin-left: 300px;
+    margin-left: 10%;
 }
 
 .Intro {
@@ -39,45 +39,7 @@
     font-family: 'AvenirNext-Ultralight', sans-serif;
     /* font-weight: 400; */
     font-size: 20px;
-    width: 850px;
-}
-
-.Intro-logos {
-    margin-top: 150px;
-    display: flex;
-    justify-content: space-evenly;
-    /* width: 30%; */
-}
-
-.linkedInLogo {
-    height: 30px;
-    width: 35.3px;
-}
-
-.gitHubLogo {
-    height: 30px;
-    width: 30px;
-}
-
-.Container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.About {
-    padding-top: 225px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.Header {
-    font-family: 'Avenir', sans-serif;
-    font-weight: 600;
-    font-size: 45px;
-    color: rgb(0, 94, 117);
+    width: 75%;
 }
 
 .Pronunciation {
@@ -87,38 +49,66 @@
     font-weight: 800;
 }
 
-.Text-and-picture {
-    display: flex;
-    margin-top: 100px;
-}
-
-.Picture {
-    
-    height: 400px;
-}
-
-.Text {
-    /* color: rgb(0, 94, 117); */
-    line-height: 30px;
-    font-weight: 400;
-    /* font-size: 20px; */
-    /* font-size: 16px; */
-    margin-left: 20px;
-}
-
-.logos {
-    height: 20px;
-    width: 20px;
-    margin-right: 30px;
-}
-
-.LinkedInlogo {
-    height: 20px;
-    width: 23.5px;
-    margin-right: 30px;
-}
-
 @font-face {
     font-family: "Avenir";
     src: url("../../Resources/Fonts/Avenir Roman.otf") format("opentype");
+}
+
+@media (max-width: 812px) {
+    .Home-page {
+        width: 100%;
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-direction: column;
+        margin-left: -20px;
+    }
+    
+    .LeftPicture {
+        width: 100%;
+        height: auto;
+        align-self: center;
+        vertical-align: top;
+    }
+    
+    .Intro {
+        color: #16acac;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-self: center;
+        width: 100%;
+        margin-left: 60px;
+        /* margin-left: 150px; */
+    }
+    
+    
+    .Intro-1 {
+        /* margin-top: 22%; */
+        font-family: 'AvenirNext-Ultralight';
+        font-size: 35px;
+    }
+    
+    .Intro-2 {
+        margin-top: 15px;
+        font-family: 'Avenir', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    .Intro-3 {
+        color: black;
+        margin-top: 75px;
+        font-family: 'AvenirNext-Ultralight', sans-serif;
+        /* font-weight: 400; */
+        font-size: 18px;
+        width: 95%;
+    }
+    
+    .Pronunciation {
+        font-family: 'Avenir', sans-serif;
+        color: rgb(0, 94, 117);
+        font-size: 12px;
+        font-weight: 800;
+    }
 }

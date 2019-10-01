@@ -1,8 +1,6 @@
 .Work {
     background-color: white;
     width: 100vw;
-    /* opacity: 0.95; */
-    overflow: auto;
 }
 
 #First-section {
@@ -79,7 +77,100 @@
     top: -1px;
 }
 
+.Skills {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    font-size: 14px;
+}
+
+.Skills-Body {
+    margin-bottom: 8px;
+}
+
 @font-face {
     font-family: "Avenir";
     src: url("../../Resources/Fonts/Avenir Roman.otf") format("opentype");
+}
+
+@media (max-width: 812px) {
+    .Work {
+        background-color: white;
+        width: 100vw;
+        overflow: auto;
+    }
+    
+    #First-section {
+        padding-top: 200px;
+    }
+    
+    .Work-Experience-Section {
+        color: black;
+        text-align: left;
+        padding-top: 80px;
+        margin-left: -320px;
+    }
+    
+    .Work-Experience-Header {
+        /* color: #FF0000; */
+        color: #16acac;
+        font-size: 20px;
+        text-transform: uppercase;
+        font: "Avenir";
+        font-weight: 600;
+    }
+    
+    .Work-Experience-Subheader {
+        margin-top: 30px;
+        font-weight: 600;
+        display: flex;
+        font-size: 14px;
+    }
+    
+    .Work-Experience-Body {
+        margin-top: 20px;
+        line-height: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .Resume-button {
+        font-family: 'Avenir';
+        border-style: solid;
+        border-width: 1px;
+        border-color: #16acac;
+        padding: 8px 26px;
+        cursor: pointer;
+        /* width: 180px; */
+        position: relative;
+        right: 0px;
+        top: -75px;
+        color: #16acac;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    .Date {
+        margin-top: 10px;
+        font-style: italic;
+        color: rgb(0, 94, 117);
+        font-size: 14px;
+    }
+    
+    .logo {
+        height: 18px;
+        width: 18px;
+        margin-right: 12.5px;
+        position: relative;
+        /* top: -1px; */
+    }
+
+    .Skills {
+        margin-top: 30px;
+        margin-bottom: 200px;
+        font-size: 14px;
+    }
+
+    .Skills-Body {
+        margin-bottom: 8px;
+    }
 }
