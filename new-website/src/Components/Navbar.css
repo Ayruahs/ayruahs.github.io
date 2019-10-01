@@ -13,8 +13,7 @@
 
 .Navbar-no-shadow {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     position: fixed;
     width: 100%;
     height: 105px;
@@ -51,4 +50,41 @@
 @font-face {
     font-family: "Avenir";
     src: url("../Resources/Fonts/Avenir Roman.otf") format("opentype");
+}
+
+@media (max-width: 812px) {
+    .Navbar-no-shadow {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 105px;
+        background-color: white;
+        box-shadow: none;
+        z-index: 2;
+    }
+    
+    .Name {
+        font-family: 'Arial';
+        font-weight: 300;
+        margin-left: 20px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 6px 12px;
+    }
+    
+    .Navbar-Right {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        height: 100%;
+    }
+    
+    .Navbar-Left {
+        display: flex;
+        /* justify-content: flex-start; */
+        align-items: center;
+        height: 100%;
+    
+    }
 }

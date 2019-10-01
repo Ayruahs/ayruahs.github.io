@@ -1,3 +1,64 @@
+.Home-page {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.LeftPicture {
+    width: 600px;
+    height: 751.75px;
+    margin-left: 300px;
+}
+
+.Intro {
+    color: #16acac;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+
+.Intro-1 {
+    /* margin-top: 22%; */
+    font-family: 'AvenirNext-Ultralight';
+    font-size: 45px;
+}
+
+.Intro-2 {
+    margin-top: 15px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+}
+
+.Intro-3 {
+    color: black;
+    margin-top: 75px;
+    font-family: 'AvenirNext-Ultralight', sans-serif;
+    /* font-weight: 400; */
+    font-size: 20px;
+    width: 850px;
+}
+
+.Intro-logos {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 30%; */
+}
+
+.linkedInLogo {
+    height: 30px;
+    width: 35.3px;
+}
+
+.gitHubLogo {
+    height: 30px;
+    width: 30px;
+}
+
 .Container {
     display: flex;
     align-items: center;
@@ -21,7 +82,7 @@
 
 .Pronunciation {
     font-family: 'Avenir', sans-serif;
-    color: #16acac;
+    color: rgb(0, 94, 117);
     font-size: 16px;
     font-weight: 800;
 }
@@ -37,12 +98,12 @@
 }
 
 .Text {
-    color: rgb(0, 94, 117);
+    /* color: rgb(0, 94, 117); */
     line-height: 30px;
     font-weight: 400;
-    font-size: 20px;
-    font-size: 16px;
-    margin-left: 120px;
+    /* font-size: 20px; */
+    /* font-size: 16px; */
+    margin-left: 20px;
 }
 
 .logos {

@@ -3,6 +3,7 @@ import './work.css'
 import IGlogo from './images/glyph-logo_May2016.png'
 import fulcrumLogo from './images/fulcrum.png'
 import Resume from "../../Resources/Shaurya_Sinha_resume.pdf"
+import Footer from '../../Components/Footer.js'
 
 import ReactGA from 'react-ga';
 
@@ -81,7 +82,7 @@ function Work() {
                     <b>CS 49000: iOS Development in Swift</b> <br />
                     I lectured and taught course material for a student-run course developed by 
                     Codepath.org on iOS development in the Swift programming language. I mentored around 45 students in the development of
-                    8 full-fldged iOS apps. <br /><br />
+                    8 full-fledged iOS apps. <br /><br />
 
                     <b>CS 30700: Software Engineering I</b> <br />
                     I served as the point of contact between engineering teams and the instructors for a semester-long project-based course
@@ -102,6 +103,7 @@ function Work() {
                     </div>
                 </div>
             </div>
+            {/* <Footer /> */}
         </div>
     );
 }

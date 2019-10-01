@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar.js'
 import Home from './pages/Home/home.js'
 import Work from './pages/Work/work.js'
 import About from './pages/About/about.js'
+import Footer from './Components/Footer.js'
 
 ReactGA.initialize('UA-102330182-1');
 ReactGA.pageview('/');
@@ -24,11 +25,12 @@ function App({location}) {
               >
                   <Switch location={location} >
                       <Route exact path="/" render={Home} />
-                      <Route path="/work" render={Work} />
-                      <Route path="/contact" render={About} />
+                      <Route path="/resume" render={Work} />
+                      <Route path="/about" render={About} />
                   </Switch>
               </CSSTransition>
           </TransitionGroup>
+          <Footer />
       </div>
     );
 }

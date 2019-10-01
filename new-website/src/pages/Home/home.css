@@ -1,76 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-
-.Home-page {
-    height: 100%;
-    width: 100%;
+.Home {
+    padding-top: 200px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.LeftPicture {
-    background: url("./images/baker_beach3.jpg") no-repeat center center;
-    background-size: cover;
-    display: flex;
-    height: 100vh;
-    width: 50%;
-    z-index: 3;
-}
-
-.Intro {
-    color: #16acac;
-    /* margin-right: 20%; */
-    margin-top: 200px;
-    width: 50%;
-    display: flex;
-    align-items: flex-end;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.face-header {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.Intro-1 {
-    /* margin-top: 22%; */
-    font-family: 'AvenirNext-Ultralight';
-    font-size: 45px;
-}
-
-.Intro-2 {
-    margin-top: 15px;
-    font-family: 'Avenir', sans-serif;
+.Name {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 65px;
+    font-size: 40px;
+    border-style: none;
+    margin-top: 20px;
 }
 
-.Intro-3 {
-    color: rgb(0, 94, 117);
-    margin-top: 75px;
-    font-family: 'Avenir', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    width: 650px;
+.Face {
+    height: 120px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: mediumvioletred;
 }
 
-.Intro-logos {
-    margin-top: 150px;
+.Work-Section {
+    padding: 60px 80px;
     display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+    height: fit-content;
+    margin-top: 150px;
+    -webkit-box-shadow: 0px 8px 20px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 8px 20px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 8px 20px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    width: 1100px;
+    height: 300px;
+    transition:all 0.3s ease;
 }
 
-.linkedInLogo {
-    height: 30px;
-    width: 35.3px;
+.Work-Section:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
-.gitHubLogo {
-    height: 30px;
-    width: 30px;
+.Work-Text {
+    /* color:green; */
+    font-family: 'Avenir';
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 180px;
+}
+
+.Work-Title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Work-Body {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+.Work-Date {
+    font-size: 18px;
+    color: #16acac;
+    margin-top: 20px;
+}
+
+.Insta {
+    background-image: repeating-radial-gradient(circle farthest-corner at 0% 100%, #d77c3d, #c63f78 52%, #aa3f9e 80%, #5156bd);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.Instalogo {
+    width: 240px;
+    height: 240px;
+    filter: grayscale(1) invert(1);
+    padding: 20px 30px;
+    align-self: center;
+}
+
+.fulcrum {
+    display: flex;
+    justify-content: center;
+}
+
+.fulcrumLogo {
+    width: 300px;
+    align-self: center;
+}
+
+.purdueLogo {
+    width: 300px;
+    align-self: center;
+    border-radius: 20px;
 }
 
 @font-face {
     font-family: "Avenir";
     src: url("../../Resources/Fonts/Avenir Roman.otf") format("opentype");
 }
-
-@import url('https://fonts.googleapis.com/css?family=Chivo:900&display=swap');

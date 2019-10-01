@@ -1,0 +1,56 @@
+.Footer-Container {
+    display: flex;
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+
+.Footer-Content {
+    align-self: center;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgb(183, 197, 200);
+}
+
+.NameLogo {
+    display: flex;
+    font-family: 'Avenir';
+    font-weight: 500;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 70px;
+}
+
+.Social-Media {
+    display: flex;
+    font-family: 'Avenir';
+    align-self: center;
+    font-size: 20px;
+    color: rgb(150, 158, 160);
+}
+
+.Social-Media-Link {
+    margin-right: 30px;
+    transition: all 0.5s ease;
+}
+
+.Social-Media-Link:hover {
+    color: rgb(0, 94, 117);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../Resources/Fonts/Avenir Roman.otf") format("opentype");
+}
