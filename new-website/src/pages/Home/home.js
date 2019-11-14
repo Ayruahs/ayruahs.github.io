@@ -1,73 +1,89 @@
 import React from 'react';
 import './home.css'
-import Footer from '../../Components/Footer.js'
 import IG from '../Work/images/glyph-logo_May2016.png'
 import face from './images/baker_beach4.jpg'
 import fulcrumLogo from '../Work/images/fulcrum.png'
 import PurdueLogo from './images/PurdueAppLogo.png'
+import CelebrityRecognition from './images/CelebrityRecognition.png'
 
 function Home() {
     return (
         <div>
         <div className="Home">
-            <div className="face-header">
-                <div>
-                <img className="Face" src={face} />
-                </div>
-                <div className="Name">Shaurya Sinha</div>
-            </div>
-            <div className="Work-Section">
-                <div className="Work-Text">
-                    <div className="Work-Title">
-                        Instagram - Software Engineering Internship
+            <div className="Work-Section-Row">
+                <div className="face-header">
+                    {/* <div>
+                        <img className="Face" src={face} />
+                    </div> */}
+                    <div className="IntroBlurb">
+                        <div style={{fontFamily: 'Montserrat', fontSize: "40px", lineHeight: "50px"}}>
+                        Hi! I am Shaurya 👋🏽 <br/>
+                        </div>
+                        Incoming Software Engineer at Facebook/Instagram. <br/>
+                        CS Student at Purdue University.
                     </div>
-                    <div className="Work-Body">
-                        At Instagram I was part of the Instagram Stories Interactivity and Feedback 
-                        Team. I worked on the iOS app to create new user experiences for users to 
-                        facilitate reacting to IG Stories in new ways.
-                    </div>
-                    <div className="Work-Date">
-                        Summer 2019
-                    </div>
-                </div>
-                <div className="Insta">
-                    <img className="Instalogo" src={IG} />
                 </div>
             </div>
 
-            <div className="Work-Section">
-                <div className="Work-Text">
-                    <div className="Work-Title">
-                        Fulcrum GT - Software Engineering Internship
+            <div className="Work-Section-Row">
+                    <div className="Work-Section" id="Insta">
+                        <div className="Work-Text">
+                            <div className="Work-Title">
+                                Instagram
+                            </div>
+                            <div className="Work-Body">
+                                Software Engineering Internship
+                            </div>
+                            
+                        </div>
+                        <div>
+                            <img className="Instalogo" src={IG} />
+                        </div>
                     </div>
-                    <div className="Work-Body">
-                        I developed an application using React.js for IP attorneys and graphic designers 
-                        to allow them to swiftly determine if their logo is likely to infringe on any 
-                        trademarks using Content-Based Image Retrieval and Computer Vision.
+
+                    <div className="Work-Section" id="Fulcrum">
+                        <div className="Work-Text">
+                            <div className="Work-Title">
+                                Fulcrum GT 
+                            </div>
+                            <div className="Work-Body">
+                            Software Engineering Internship
+                            </div>
+                        </div>
+                        <div>
+                            <img className="fulcrumLogo" src={fulcrumLogo} />
+                        </div>
                     </div>
-                    <div className="Work-Date">
-                        Summer 2018
-                    </div>
-                </div>
-                <div className="fulcrum">
-                    <img className="fulcrumLogo" src={fulcrumLogo} />
-                </div>
             </div>
 
-            <div className="Work-Section">
-                <div className="Work-Text">
-                    <div className="Work-Title">
-                        Purdue iOS App - Backend Developer
+            <div className="Work-Section-Row">
+                    <div className="Work-Section Work-Section-Purdue" id="Purdue">
+                        <div className="Work-Text">
+                            <div className="Work-Title">
+                                Purdue iOS App 
+                            </div>
+                            <div className="Work-Body">
+                                Backend Developer
+                            </div>
+                        </div>
+                        <div>
+                            <img className="purdueLogo" src={PurdueLogo} />
+                        </div>
                     </div>
-                    <div className="Work-Body">
-                        As part of the iOS Development Club, I worked on the backend of the Purdue App
-                        on iOS that has thousands of daily active users and more downloads than the 
-                        official Purdue app.
+
+                    <div className="Work-Section" id="CelebrityRecognition">
+                        <div className="Work-Text">
+                            <div className="Work-Title">
+                                Celebrity Recognition App
+                            </div>
+                            <div className="Work-Body">
+                                iOS Developer
+                            </div>
+                        </div>
+                        <div>
+                            <img className="celebRecogLogo" src={CelebrityRecognition} />
+                        </div>
                     </div>
-                </div>
-                <div className="fulcrum">
-                    <img className="purdueLogo" src={PurdueLogo} />
-                </div>
             </div>
         </div>
         {/* <Footer /> */}

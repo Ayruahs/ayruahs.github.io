@@ -1,17 +1,21 @@
 
 
 .SlideIn-enter {
-  transform: translateY(-200vh);
+  /* transform: translateY(-200vh); */
+  opacity: 0;
 }
 .SlideIn-enter.SlideIn-enter-active {
-  transform: translateY(0);
-  transition: all 0.8s;
+  /* transform: translateY(0); */
+  transition: all 1.5s;
+  opacity: 1;
 }
 .SlideIn-exit {
   transform: translateY(0);
+  opacity: 1;
 }
 .SlideIn-exit.SlideIn-exit-active {
   /* position: absolute; */
-  transform: translateY(-400vh);
-  transition: all 0.8s ;
+  /* transform: translateY(-400vh); */
+  opacity: 0;
+  transition: all 1.5s;
 }

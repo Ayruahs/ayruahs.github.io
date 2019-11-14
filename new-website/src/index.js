@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ScrollToTop from './Components/ScrollToTop';
 
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 
@@ -11,7 +12,9 @@ ReactDOM.render(
         {/* <Route render={({location}) => (
             <App location={location} />
         )} /> */}
-        <App />
+        <ScrollToTop>
+            <App />
+        </ScrollToTop>
     </Router>
     , document.getElementById('root')
 );

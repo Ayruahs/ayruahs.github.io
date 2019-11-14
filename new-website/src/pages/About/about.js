@@ -9,7 +9,7 @@ ReactGA.pageview('/contact');
 
 function About(props) {
     return (
-        <div className="Home-page">
+        <div className="About-page">
             <img className="LeftPicture" src={funkWavBounces} />
             
             <div className="Intro">
@@ -23,12 +23,12 @@ function About(props) {
                     (SHAWR-yuh sin-HA)
                 </div>
                 <div className="Intro-3">
-                    I'm a software developer from New Delhi.
+                    I'm a software developer from New Delhi. Most recently at Instagram in San Francisco where I interned as an iOS developer.
                     <br />
                     <br />
                     I am currently a senior majoring in Computer Science at Purdue University, I will graduate in December 2019 with a minor in Math.
-                    I have experience developing full stack web and iOS applications and am currently trying to pick up design. I am
-                    looking for full-time SWE opportunities.  
+                    I have experience developing full stack web and iOS applications and am currently trying to pick up design. After graduating I will be 
+                    joining Facebook as a software engineer.
                     <br />
                     <br />
                     I'm passionate about solving problems and making people's lives easier through software and technology. I enjoy pushing my boundaries and

@@ -11,11 +11,11 @@ function Navbar(props) {
 
     return (
         <div className={navbarClassName}>
-            {/* <div className="Navbar-Left">
-                <div className="Name">
-                    Shaurya Sinha
+            <div className="Navbar-Left">
+                <div className="NameLeft">
+                    <a href="/">Shaurya Sinha</a>
                 </div>
-            </div> */}
+            </div>
             <div className="Navbar-Right">
                 <Link to="/" style={{ textDecoration: 'none' }}> <Button color={homeButtonColor} text="Work" /> </Link>
                 <Link to="/resume" style={{ textDecoration: 'none' }}> <Button color={workButtonColor} text="Resume" /> </Link>

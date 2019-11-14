@@ -1,4 +1,4 @@
-.Home-page {
+.About-page {
     /* height: 100%; */
     width: 100%;
     display: flex;
@@ -7,9 +7,11 @@
 }
 
 .LeftPicture {
-    width: 600px;
-    height: 751.75px;
-    margin-left: 10%;
+    max-width: 600px;
+    max-height: 752px;
+    width: 50%;
+    height: 62.65%;
+    margin-left: 5%;
 }
 
 .Intro {
@@ -21,7 +23,6 @@
 
 
 .Intro-1 {
-    /* margin-top: 22%; */
     font-family: 'AvenirNext-Ultralight';
     font-size: 45px;
 }
@@ -37,7 +38,6 @@
     color: black;
     margin-top: 75px;
     font-family: 'AvenirNext-Ultralight', sans-serif;
-    /* font-weight: 400; */
     font-size: 20px;
     width: 75%;
 }
@@ -55,7 +55,7 @@
 }
 
 @media (max-width: 812px) {
-    .Home-page {
+    .About-page {
         width: 100%;
         display: flex;
         padding-top: 100px;
@@ -79,12 +79,10 @@
         align-self: center;
         width: 100%;
         margin-left: 60px;
-        /* margin-left: 150px; */
     }
     
     
     .Intro-1 {
-        /* margin-top: 22%; */
         font-family: 'AvenirNext-Ultralight';
         font-size: 35px;
     }
@@ -100,7 +98,6 @@
         color: black;
         margin-top: 75px;
         font-family: 'AvenirNext-Ultralight', sans-serif;
-        /* font-weight: 400; */
         font-size: 18px;
         width: 95%;
     }
