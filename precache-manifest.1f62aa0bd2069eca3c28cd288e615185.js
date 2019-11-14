@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f15a7fe5ca88b1480097e90ce8c8163f",
+    "revision": "e8e6fc34faef0e12a2d32e0c12457508",
     "url": "/index.html"
   },
   {
-    "revision": "4749b25384c98bd3f74c",
-    "url": "/static/css/main.deb8a492.chunk.css"
+    "revision": "3ffb408b3d08664d3bd8",
+    "url": "/static/css/main.099425c1.chunk.css"
   },
   {
-    "revision": "a9a6fdcf21854e0ca0d6",
-    "url": "/static/js/2.4aeeda32.chunk.js"
+    "revision": "c79f3ef02f951aec0298",
+    "url": "/static/js/2.4f6a4465.chunk.js"
   },
   {
-    "revision": "4749b25384c98bd3f74c",
-    "url": "/static/js/main.84878200.chunk.js"
+    "revision": "3ffb408b3d08664d3bd8",
+    "url": "/static/js/main.5c47ac98.chunk.js"
   },
   {
     "revision": "c39099addc434270482f",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3b06989cdbd59e51633319a5be7851b",
     "url": "/static/media/Avenir Roman.b3b06989.otf"
+  },
+  {
+    "revision": "86e54e070f9b3dab38fdb2403e355c66",
+    "url": "/static/media/CelebrityRecognition.86e54e07.png"
   },
   {
     "revision": "5da82ab8bd641e986fa4d896245c99a7",
