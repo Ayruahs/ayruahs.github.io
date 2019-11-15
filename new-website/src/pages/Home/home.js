@@ -43,7 +43,7 @@ function Home() {
                         </div>
                     </div>
                 </Link>
-
+                <Link to="/fulcrum" style={{ textDecoration: 'none' }}> 
                     <div className="Work-Section" id="Fulcrum">
                         <div className="Work-Text">
                             <div className="Work-Title">
@@ -57,6 +57,7 @@ function Home() {
                             <img className="fulcrumLogo" src={fulcrumLogo} />
                         </div>
                     </div>
+                </Link>
             </div>
 
             <div className="Work-Section-Row">

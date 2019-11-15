@@ -10,6 +10,7 @@ import Work from './pages/Work/work.js'
 import About from './pages/About/about.js'
 import Footer from './Components/Footer.js'
 import Instagram from './pages/Home/pages/insta.js'
+import Fulcrum from './pages/Home/pages/fulcrum.js'
 
 ReactGA.initialize('UA-102330182-1');
 ReactGA.pageview('/');
@@ -29,6 +30,7 @@ function App({location}) {
                       <Route path="/resume" render={Work} />
                       <Route path="/about" render={About} />
                       <Route path="/insta" render={Instagram} />
+                      <Route path="/fulcrum" render={Fulcrum} />
                   </Switch>
               </CSSTransition>
           </TransitionGroup>
