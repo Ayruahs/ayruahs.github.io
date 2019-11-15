@@ -128,7 +128,7 @@
 }
 
 .fulcrumLogo {
-    width: 300px;
+    width: 200px;
     filter: invert(0.98) sepia(0.53) saturate(45.95) hue-rotate(167deg) brightness(100%) contrast(102%);
 }
 
@@ -138,7 +138,7 @@
 }
 
 .purdueLogo {
-    width: 300px;
+    width: 200px;
     border-radius: 20px;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .celebRecogLogo {
-    width: 200px;
+    width: 150px;
 }
 
 @font-face {
