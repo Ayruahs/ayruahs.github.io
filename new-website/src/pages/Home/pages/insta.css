@@ -15,6 +15,7 @@
 
 .InstaHeroImage {
     width: 700px;
+    height: 726.34px;
 }
 
 .DetailContainer {
@@ -33,7 +34,6 @@
     margin-top: 40px;
     font-family: 'Avenir', sans-serif;
     font-size: 18px;
-    /* font-weight: 5000; */
     line-height: 26px;
     width: 1000px;
 }

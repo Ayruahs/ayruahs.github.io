@@ -3,7 +3,7 @@ import './Button.css'
 
 function Button(props) {
     return (
-        <div onClick={props.onClick} style={{color:props.color}} className="Button">
+        <div onClick={props.onClick} className={props.color === "black" ? "Button" : "Button Button-Active"}>
             {props.text}
         </div>
     );

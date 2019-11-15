@@ -1,10 +1,15 @@
 .Button {
-    /* font-family: 'AmericanTypewriter'; */
     font-family: 'Avenir';
-    /* border-style: solid; */
-    border-width: 1px;
     color: black;
     padding: 8px 16px;
-    margin: 0px 30px;
+    margin: 0px 20px;
     cursor: pointer;
+}
+
+.Button-Active {
+    color: #16acac;
+}
+
+.Button:hover {
+    color: #16acac;
 }
