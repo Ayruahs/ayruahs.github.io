@@ -56,29 +56,24 @@
 
 @media (max-width: 812px) {
     .About-page {
-        width: 100%;
-        display: flex;
         padding-top: 100px;
-        padding-bottom: 100px;
         flex-direction: column;
-        margin-left: -20px;
+        width: 100%;
     }
     
     .LeftPicture {
         width: 100%;
         height: auto;
-        align-self: center;
-        vertical-align: top;
+        margin: 0;
     }
     
     .Intro {
         color: #16acac;
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        margin: 20px 0 0 0;
         align-self: center;
-        width: 100%;
-        margin-left: 60px;
+        width: 80%;
     }
     
     
@@ -99,7 +94,7 @@
         margin-top: 75px;
         font-family: 'AvenirNext-Ultralight', sans-serif;
         font-size: 18px;
-        width: 95%;
+        width: 100%;
     }
     
     .Pronunciation {
