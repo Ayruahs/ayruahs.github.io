@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 function Home() {
     return (
         <div>
-        <div className="Home">
+        <div className="HomePage">
             <div className="Work-Section-Row">
                 <div className="face-header">
                     {/* <div>
@@ -27,8 +27,8 @@ function Home() {
             </div>
 
             <div className="Work-Section-Row">
-                <Link to="/insta" style={{ textDecoration: 'none' }}> 
-                    <div className="Work-Section" id="Insta">
+                <div className="Work-Section" id="Insta">
+                    <Link to="/insta"> 
                         <div className="Work-Text">
                             <div className="Work-Title">
                                 Instagram
@@ -38,26 +38,26 @@ function Home() {
                             </div>
                             
                         </div>
-                        <div>
-                            <img className="Instalogo" src={IG} />
-                        </div>
+                    </Link>
+                    <div>
+                        <img className="Instalogo" src={IG} />
                     </div>
-                </Link>
-                <Link to="/fulcrum" style={{ textDecoration: 'none' }}> 
+                </div>
                     <div className="Work-Section" id="Fulcrum">
-                        <div className="Work-Text">
-                            <div className="Work-Title">
-                                Fulcrum GT 
+                        <Link to="/fulcrum"> 
+                            <div className="Work-Text">
+                                <div className="Work-Title">
+                                    Fulcrum GT 
+                                </div>
+                                <div className="Work-Body">
+                                Software Engineering Internship
+                                </div>
                             </div>
-                            <div className="Work-Body">
-                            Software Engineering Internship
-                            </div>
-                        </div>
+                        </Link>
                         <div>
                             <img className="fulcrumLogo" src={fulcrumLogo} />
                         </div>
                     </div>
-                </Link>
             </div>
 
             <div className="Work-Section-Row">
