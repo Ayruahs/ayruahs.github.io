@@ -13,7 +13,7 @@ function Navbar(props) {
         <div className={navbarClassName}>
             <div className="Navbar-Left">
                 <div className="NameLeft">
-                    <a href="/">Shaurya Sinha</a>
+                    <a href="/">shaurya sinha</a>
                 </div>
             </div>
             <div className="Navbar-Right">
