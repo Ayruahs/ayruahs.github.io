@@ -1,0 +1,86 @@
+.Insta-page {
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.InstaHero {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* background: rgb(186, 168, 139); */
+    background: rgb(219, 208, 196);
+    width: 90%;
+}
+
+.InstaHeroImage {
+    width: 700px;
+}
+
+.DetailContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+    padding-left: 200px;
+}
+
+.Title {
+    font-family: 'Heebo', sans-serif;
+    font-size: 56px;
+}
+
+.Details {
+    margin-top: 40px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+    /* font-weight: 5000; */
+    line-height: 26px;
+    width: 1000px;
+}
+
+.InstaMPK {
+    margin-top: 100px;
+}
+
+.InstaMPKImage {
+    width: 800px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:100&display=swap');
+
+@media (max-width: 812px) {
+    .Insta-page {
+        width: 100%;
+    }
+    
+    .InstaHero {
+        width: 100%;
+    }
+    
+    .InstaHeroImage {
+        width: 100%;
+        height: 86.47%;
+    }
+    
+    .DetailContainer {
+        margin: 0;
+        padding: 0 20px;
+    }
+    
+    .Title {
+        font-size: 40px;
+    }
+    
+    .Details {
+       width: 100%;
+       font-size: 16px;
+    }
+    
+    .InstaMPK {
+
+    }
+    
+    .InstaMPKImage {
+        width: 100%;
+    }
+}

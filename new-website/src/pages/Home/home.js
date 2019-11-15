@@ -5,6 +5,7 @@ import face from './images/baker_beach4.jpg'
 import fulcrumLogo from '../Work/images/fulcrum.png'
 import PurdueLogo from './images/PurdueAppLogo.png'
 import CelebrityRecognition from './images/CelebrityRecognition.png'
+import {Link} from 'react-router-dom';
 
 function Home() {
     return (
@@ -26,6 +27,7 @@ function Home() {
             </div>
 
             <div className="Work-Section-Row">
+                <Link to="/insta" style={{ textDecoration: 'none' }}> 
                     <div className="Work-Section" id="Insta">
                         <div className="Work-Text">
                             <div className="Work-Title">
@@ -40,6 +42,7 @@ function Home() {
                             <img className="Instalogo" src={IG} />
                         </div>
                     </div>
+                </Link>
 
                     <div className="Work-Section" id="Fulcrum">
                         <div className="Work-Text">
