@@ -41,6 +41,20 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+    margin-right: 100px;
+}
+
+.Navbar-Right label, #hamburger {
+    position: absolute;
+    visibility: hidden;
+}
+
+.Navbar-Right ul {
+    list-style-type: none;
+}
+
+.Navbar-Right ul li {
+    display: inline-block;
 }
 
 .Navbar-Left {
@@ -73,9 +87,47 @@
         font-size: 15px;
         align-items: center;
         height: 100%;
+        margin-right: 0;
+    }
+
+    .Navbar-Right label {
+        visibility: visible;
+        position: absolute;
+        display: inline-block;
+        font-size: 30px;
+        right: 20px;
+        top: 30px;
+    }
+    
+    .Navbar-Right ul {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        padding: 100px 0 0 0; 
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 28px;
+        transition: all 0.3s;
+    }
+
+    .Navbar-Right input:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        top: 77px;
+    }
+    
+    .Navbar-Right ul li {
+        display: inline-block;
+        padding: 20px ;
     }
     
     .Navbar-Left {
-        display: none;
+        margin: 0;
     }
 }

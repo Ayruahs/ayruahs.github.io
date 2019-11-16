@@ -78,7 +78,7 @@ function Home() {
                     <div className="Work-Section" id="CelebrityRecognition">
                         <div className="Work-Text">
                             <div className="Work-Title">
-                                Celebrity Recognition App
+                                Celebrity Recognition
                             </div>
                             <div className="Work-Body">
                                 iOS Developer

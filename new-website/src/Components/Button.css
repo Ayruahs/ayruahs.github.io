@@ -13,3 +13,9 @@
 .Button:hover {
     color: #16acac;
 }
+
+@media (max-width: 812px) {
+    .Button {
+        padding: 10px 16px;
+    }
+}
