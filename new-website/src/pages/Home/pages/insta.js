@@ -12,7 +12,7 @@ function Insta(props) {
     return (
         <div className="Insta-page">
             <div className="InstaHero">
-                <img className="InstaHeroImage" src={leafyIG} />
+                <img alt="Instagram logo" className="InstaHeroImage" src={leafyIG} />
             </div>
 
             <div className="DetailContainer">
@@ -33,7 +33,7 @@ function Insta(props) {
                     live and work with, making it my favorite summer yet!
                 </div>
                 <div className="InstaMPK">
-                    <img className="InstaMPKImage" src={colorIG} />
+                    <img alt="Me at the Instagram Menlo Park office" className="InstaMPKImage" src={colorIG} />
                 </div>
             </div>
         </div>

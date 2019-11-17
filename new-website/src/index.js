@@ -5,13 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ScrollToTop from './Components/ScrollToTop';
 
-import {Route, BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
     <Router basename={process.env.PUBLIC_URL}>
-        {/* <Route render={({location}) => (
-            <App location={location} />
-        )} /> */}
         <ScrollToTop>
             <App />
         </ScrollToTop>

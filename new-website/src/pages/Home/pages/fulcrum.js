@@ -14,7 +14,7 @@ function Fulcrum(props) {
     return (
         <div className="Fulcrum-page">
             <div className="FulcrumHero">
-                <img className="FulcrumHeroImage" src={FulcrumLogo} />
+                <img alt="My team at Fulcrum GT" className="FulcrumHeroImage" src={FulcrumLogo} />
             </div>
 
             <div className="FulcrumDetailContainer">
@@ -33,25 +33,18 @@ function Fulcrum(props) {
                     software product that was demoed at ILTACON 2018. I learned a ton from the engineers and made some great friendships 
                     with fellow interns that summer and got to live and experience an amazingly beautiful city, making it one of my most
                     cherished experiences so far!
-                    {/* It was my first time working at a large tech company and it took some time getting used to industry practices and 
-                    the vast array of internal tools. I was able to learn and grow more than I thought possible before starting
-                    my internship. I regularly met with engineers from different teams and UX designers to complete my project which also
-                    allowed me to improve my cross-functional communication skills. It was extremely exciting seeing my features actually
-                    be launched in the wild with real users testing them. The most rewarding part of the entire summer was simply the
-                    number of supremely talented engineers, designers, product managers, data scientists, and fellow interns that I got to
-                    live and work with, making it my favorite summer yet! */}
                 </div>
 
                 <div className="Lolla">
-                    <img className="LollaImage" src={LollaOdesza} />
+                    <img alt="Fireworks during Odesza at Lollapalooza" className="LollaImage" src={LollaOdesza} />
                 </div>
 
                 <div className="LastDay">
-                    <img className="LastDayImage" src={ChicagoLastDay} />
+                    <img alt="Downtown on my last day in Chicago" className="LastDayImage" src={ChicagoLastDay} />
                 </div>
 
                 <div className="Hancock">
-                    <img className="HancockImage" src={Hancock} />
+                    <img alt="Looking down from the Hancock Tower" className="HancockImage" src={Hancock} />
                 </div>
             </div>
         </div>

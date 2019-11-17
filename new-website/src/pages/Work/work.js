@@ -3,7 +3,6 @@ import './work.css'
 import IGlogo from './images/glyph-logo_May2016.png'
 import fulcrumLogo from './images/fulcrum.png'
 import Resume from "../../Resources/Shaurya_Sinha_resume.pdf"
-import Footer from '../../Components/Footer.js'
 
 import ReactGA from 'react-ga';
 

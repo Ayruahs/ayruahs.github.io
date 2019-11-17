@@ -13,13 +13,13 @@ function Footer(props) {
                         <a href="mailto: sinha35@purdue.edu">Email</a>
                     </div>
                     <div className="Social-Media-Link">
-                        <a target="_blank" href="https://www.linkedin.com/in/shaurya-sinha/">LinkedIn</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shaurya-sinha/">LinkedIn</a>
                     </div>
                     <div className="Social-Media-Link">
-                        <a target="_blank" href="https://github.com/Ayruahs">Github</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ayruahs">Github</a>
                     </div>
                     <div className="Social-Media-Link">
-                        <a target="_blank" href="https://www.instagram.com/shauryasinha/">Instagram</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shauryasinha/">Instagram</a>
                     </div>
                 </div>
             </div>

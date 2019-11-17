@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css'
-import {withRouter, Link} from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import ReactGA from 'react-ga';
 import funkWavBounces from "./images/baker_beach2.jpg"
 
@@ -10,7 +10,7 @@ ReactGA.pageview('/contact');
 function About(props) {
     return (
         <div className="About-page">
-            <img className="LeftPicture" src={funkWavBounces} />
+            <img alt="Portrait at Baker Beach" className="LeftPicture" src={funkWavBounces} />
             
             <div className="Intro">
                 <div className="Intro-1">

@@ -1,7 +1,6 @@
 import React from 'react';
 import './home.css'
 import IG from '../Work/images/glyph-logo_May2016.png'
-import face from './images/baker_beach4.jpg'
 import fulcrumLogo from '../Work/images/fulcrum.png'
 import PurdueLogo from './images/PurdueAppLogo.png'
 import CelebrityRecognition from './images/CelebrityRecognition.png'
@@ -13,12 +12,9 @@ function Home() {
         <div className="HomePage">
             <div className="Work-Section-Row">
                 <div className="face-header">
-                    {/* <div>
-                        <img className="Face" src={face} />
-                    </div> */}
                     <div className="IntroBlurb">
                         <div style={{fontFamily: 'Montserrat', fontSize: "40px", lineHeight: "50px"}}>
-                        Hi! I am Shaurya 👋🏽 <br/>
+                        Hi! I am Shaurya <span role="img" aria-label="Handwave emoji">👋🏽</span> <br/>
                         </div>
                         Incoming Software Engineer at Facebook/Instagram. <br/>
                         CS Student at Purdue University.
@@ -40,7 +36,7 @@ function Home() {
                         </div>
                     </Link>
                     <div>
-                        <img className="Instalogo" src={IG} />
+                        <img alt="Instagram logo" className="Instalogo" src={IG} />
                     </div>
                 </div>
                     <div className="Work-Section" id="Fulcrum">
@@ -55,7 +51,7 @@ function Home() {
                             </div>
                         </Link>
                         <div>
-                            <img className="fulcrumLogo" src={fulcrumLogo} />
+                            <img alt="Fulcrum GT logo" className="fulcrumLogo" src={fulcrumLogo} />
                         </div>
                     </div>
             </div>
@@ -71,7 +67,7 @@ function Home() {
                             </div>
                         </div>
                         <div>
-                            <img className="purdueLogo" src={PurdueLogo} />
+                            <img alt="Purdue App logo" className="purdueLogo" src={PurdueLogo} />
                         </div>
                     </div>
 
@@ -85,7 +81,7 @@ function Home() {
                             </div>
                         </div>
                         <div>
-                            <img className="celebRecogLogo" src={CelebrityRecognition} />
+                            <img alt="Side project logo" className="celebRecogLogo" src={CelebrityRecognition} />
                         </div>
                     </div>
             </div>
